@@ -40,9 +40,27 @@ function paisMasLargo(arregloDePaises) {
 3. Crea una función llamada farenheitToCelsius() que reciba como parámetro los grados farenheit y los convierta a grados centígrados.
 */
 
-
-
+function farenheitToCelcius(gradosFarenheit) {
+    let gradosCelsius = (gradosFarenheit-32)*(5/9);
+    return gradosCelsius;
+}
+farenheitToCelcius(55);
 
 /*
 4. Crea una función que imprima el número de parámetros enviados.
 */
+array = ["hola", 78, false, 4.56];
+
+function spreadOperator(...array) {
+    return spreadOperator;
+}
+spreadOperator(0,3);
+
+
+function suma(x,y,z){
+    return x + y + z;
+}
+const numbers = [1, 2, 3];
+suma(numbers);
+
+
