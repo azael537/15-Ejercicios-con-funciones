@@ -49,18 +49,13 @@ farenheitToCelcius(55);
 /*
 4. Crea una función que imprima el número de parámetros enviados.
 */
-array = ["hola", 78, false, 4.56];
+array = ["hola", 78, false, 4.56, "Salvador es muy malo"];
 
 function spreadOperator(...array) {
     return spreadOperator;
 }
-spreadOperator(0,3);
+spreadOperator(0,5);
 
 
-function suma(x,y,z){
-    return x + y + z;
-}
-const numbers = [1, 2, 3];
-suma(numbers);
 
 
