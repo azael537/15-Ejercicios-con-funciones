@@ -1,8 +1,10 @@
 //document.write("hola");
 
 var listaArticulos = [];
+
 var btnAgregar = document.getElementById("btn-add");
 btnAgregar.onclick = agregarArticulo;
+
 document.getElementById("btn-send").onclick = enviarCuenta;
 
 function agregarArticulo() {
